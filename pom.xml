@@ -296,6 +296,12 @@
             <version>${javax-activation.version}</version>
         </dependency>
 
+        <dependency>
+             <groupId>org.jacoco</groupId>
+             <artifactId>jacoco-maven-plugin</artifactId>
+             <version>0.8.6</version>
+        </dependency>
+
     </dependencies>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
